@@ -66,9 +66,26 @@ import java.util.Scanner;
         int choice1 = scanner.nextInt();
         switch (choice1){
             case 1: ganMang(choice, addLast(arr));;
+            break;
+            case 2: //todo: 4.2
+                break;
+            case 3: //todo: 4.3
+                break;
         }
 
     }
+
+
+    public int[] addFirst(int[] arr){
+        // TODO: 08/06/2023  code logic tính năng 4.2 ở đây
+        return null;
+    }
+
+    private int[] remove(){
+        //todo: tính năng 4,3 code ở đây
+        return null;
+    }
+
     private static int[] addLast(int[] arr){
         System.out.println("nhập phần số muốn thêm");
         int num = scanner.nextInt();
